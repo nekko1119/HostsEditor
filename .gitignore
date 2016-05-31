@@ -1,0 +1,6 @@
+.vs/
+HostsEditor/bin/
+HostsEditor/obj/
+*.suo
+*.user
+
