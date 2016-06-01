@@ -39,7 +39,7 @@ namespace HostsEditor
             }
             catch (Exception exception)
             {
-                MessageBox.Show(exception.Message, "エラー", MessageBoxButtons.OK);
+                MessageBox.Show(exception.Message, "エラー");
                 throw;
             }
             this.Path = config.Count() > 0 ? config.First() : this.DefaultHostsPath;
